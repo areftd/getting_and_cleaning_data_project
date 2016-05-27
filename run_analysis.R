@@ -1,4 +1,5 @@
 library(plyr)
+# download and extract the data set
 zipfile_url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
 if(!file.exists("./newfolder"))(dir.create("./newfolder"))
