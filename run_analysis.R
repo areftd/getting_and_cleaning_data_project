@@ -59,20 +59,3 @@ names(complete)<-gsub("bodybody", "Body", names(complete))
 # creating the average data set for each activity of each participant
 aver_data <- ddply(complete,.(participants,activity), function(x) colMeans(x[,1:66]))
 write.table(aver_data,"aver_data.txt", row.name=FALSE)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
