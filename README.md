@@ -5,6 +5,6 @@ Data's title: [Human Activity Recognition Using Smartphones](http://archive.ics.
 
 ## Files found in this repository
 - This file (``README.md``)
-- analysis\_run.R: this constains the R-code which you have to run for a complete anaylsis of this data set.
+- `analysis\_run.R`: this constains the R-code which you have to run for a complete anaylsis of this data set.
 - Codebook.md: this describes the process to get the tidy data, variables and transformation steps
 - aver\_data.txt: is a sub-tidy data set, that is produced at the end of the anaylsis. It contains the average value of each variable for each activity and each subject, that contributed in the experiment.
